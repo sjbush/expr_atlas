@@ -6,7 +6,7 @@ Scripts should be considered "lab quality" rather than "developer quality" and w
 
 **Script 1: make_protein_coding_transcriptome.pl**
 
-This takes as input one set of Ensembl cDNAs and one set of NCBI mRNA RefSeqs, from the same annotation (in this case, Rnor_6.0) plus the associated GFFs.
+This takes as input one set of Ensembl cDNAs and one set of NCBI mRNA RefSeqs, from the same annotation (in this example, Rnor_6.0) plus the associated GFFs.
 Integrating the two, it produces two output files: (a) a non-redundant set of protein-coding transcripts, to be indexed with [Kallisto](https://pachterlab.github.io/kallisto/about), and (b) a transcript-to-gene lookup table, detailing the sequences within.
 
 **Script 2: parse_bioproject_summary_file.pl**
